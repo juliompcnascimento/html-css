@@ -1,0 +1,64 @@
+@charset "UTF-8"
+
+/* Color Theme Swatches in Hex */
+.MS-Dark-Teal-1-hex { color: #004C50; }
+.MS-Dark-Teal-2-hex { color: #00939C; }
+.MS-Dark-Teal-3-hex { color: #10ABB4; }
+.MS-Dark-Teal-4-hex { color: #9C3E00; }
+.MS-Dark-Teal-5-hex { color: #502000; }
+
+/* Color Theme Swatches in RGBA */
+.MS-Dark-Teal-1-rgba { color: rgba(0, 75, 80, 1); }
+.MS-Dark-Teal-2-rgba { color: rgba(0, 147, 156, 1); }
+.MS-Dark-Teal-3-rgba { color: rgba(16, 170, 179, 1); }
+.MS-Dark-Teal-4-rgba { color: rgba(156, 62, 0, 1); }
+.MS-Dark-Teal-5-rgba { color: rgba(80, 31, 0, 1); }
+
+/* Color Theme Swatches in HSLA */
+.MS-Dark-Teal-1-hsla { color: hsla(183, 100, 15, 1); }
+.MS-Dark-Teal-2-hsla { color: hsla(183, 100, 30, 1); }
+.MS-Dark-Teal-3-hsla { color: hsla(183, 83, 38, 1); }
+.MS-Dark-Teal-4-hsla { color: hsla(24, 100, 30, 1); }
+.MS-Dark-Teal-5-hsla { color: hsla(23, 100, 15, 1); }
+
+:root{
+    --azul-escuro: rgba(0, 75, 80, 1);
+    --azul-medio: rgba(0, 130, 156, 1);
+    --azul-claro: rgba(16, 170, 179, 1);
+    --laranja-claro: rgba(156, 62, 0, 1);
+    --laranja-escuro: rgba(80, 31, 0, 1);
+}
+
+
+* {
+    
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--azul-escuro), var(--azul-claro), var(--azul-escuro));
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    padding: 7px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(80, 31, 0, 0.7);
+}
+
+h1 {
+    color: var(--azul-medio);
+    text-align: center;
+    text-shadow: 1px 1px 1px gray;
+}
+
+h2 {
+    color: var(--laranja-claro);
+}
+
+

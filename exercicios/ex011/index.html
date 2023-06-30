@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Trabalhando com Mídias</title>
+	</head>
+	
+	<body>
+		<h1>Imagens dinâmicas</h1>
+		
+		<p>
+			Um bom programador deve utilizar o recurso de <strong>imagens dinâmicas</strong>. Esse recurso permite que o tamanho das imagens se adpte ao tamanho da tela em que se acessa o <em>site</em>. Veja a seguir um exemplo redimensionando a janela do navegador, se estiver usando um computador.
+		</p>
+		<picture>
+			<source media="(max-width: 700px)" srcset="imagens/imagem-p.png">
+			<source media="(max-width: 1250px)" srcset="imagens/imagem-m.png">
+			<img src="imagens/imagem-g.png" alt="A imagem dinâmica funciona">
+		</picture>
+		
+		<h1>Trabalhando com Áudios</h1>
+		<p>
+			Você também pode inserir um áudio no seu <em>site</em>. Veja um exemplo a seguir.
+		</p>
+		<audio preload="metadata" controls>
+			<source src="midias/in-the-temple-garden_aaron-kenny_160kbps.ogg" type="audio/ogg">
+			<source src="midias/in-the-temple-garden_aaron-kenny_128kbps.mp3" type="audio/mpeg">
+		</audio>
+		<p>
+			Caso o arquivo de áudio não execute, você pode baixá-lo em MP3
+			<a href="midias/in-the-temple-garden_aaron-kenny_160kbps.ogg" target="_blank" download>clicando aqui</a>.
+		</p>
+		
+		<h1>Trabalhando com Vídeos em Hospedagem Própria</h1>
+		<p>
+			Você também pode inserir um vídeo no seu <em>site</em>. Veja um exemplo a seguir.
+		</p>
+		<video width="80%" poster="imagens/capa-carros-p.jpg" controls>
+			<source src="midias/video-carros.mp4" type="video/mp4">
+			<source src="midias/video-carros.webm" type="video/webm">
+		</video>
+		
+		<h1>Incorporando Vídeos Hospedados Externamente</h1>
+		<p>
+			Vcê também por incorporar um vídeo hospedado em um servidor externo, veja uma exemplo a seguir.
+		</p>
+		<iframe width="700" height="394" src="https://www.youtube.com/embed/ABzDOSQkhTM" title="YouTube video player" frameborder="20" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+		</iframe>
+	</body>
+</html>

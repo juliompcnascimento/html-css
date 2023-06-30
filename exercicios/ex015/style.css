@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #5EE359;
+    --cor2: #f5af24;
+    --cor3: #6495E3;
+    --cor4: #e37bb5;
+    --cor5: #4D87E3;
+    --cor4-tranparente: rgba(227, 123, 181, 30%);
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor4-tranparente);
+}
+
+h1 {
+    font-size: 2em;
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+
+h1#titulo-principal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+h1 > p {
+    display: none;
+}
+
+h1:hover {
+    background-color: black;
+    color: white;
+}
+
+h1:hover > p {
+    display: inline;
+    font-size: 0.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: var(--cor5);
+}
+
+.basico {
+    color: var(--cor1);
+}
+
+.intermediario {
+    color: var(--cor5);
+}
+
+.avancado {
+    color: var(--cor2);
+}
+
+h2:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Configurando a tag P */
+
+p {
+    text-indent: 50px;
+}
+
+p::first-letter {
+    font-size: x-large;
+}
+
+/* Configurando a forma das lista não-ordenadas */
+
+a {
+    color: var(--cor5);
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+a:visited {
+    color: blue;
+}
+
+a::after {
+    content: ' [link]';
+    font-size: 0.8em;
+}
