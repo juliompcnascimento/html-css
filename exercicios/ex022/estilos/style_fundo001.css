@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(./imagens/wallpaper002.jpg);
+    background-image: url(../imagens/wallpaper002.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,12 +33,12 @@ div#q2 {
 }
 
 div#q3 {
-    background-image: url(./imagens/pattern002.png);
+    background-image: url(../imagens/pattern002.png);
     background-size: cover;
     background-position: center;
 }
 
 div#q4 {
-    background-image: url(./imagens/wallpaper001.jpg);
+    background-image: url(../imagens/wallpaper001.jpg);
     background-size: cover;
 }
