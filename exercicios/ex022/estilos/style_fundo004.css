@@ -1,11 +1,11 @@
 body {
     background-image: url(../imagens/wallpaper003.jpg);
-    background-size: 100px;
+    background-size: 100px 100px;
     background-position: center center;
     background-repeat: no-repeat;
 
     
-    border: 1px dashed black;
-    height: 100vh;
+    border: 2px solid black;
+    height: 90vh;
     margin: 0px;
 }
