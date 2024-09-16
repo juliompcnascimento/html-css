@@ -5,4 +5,4 @@
  Testado no dia 16/09/2024 teste de uso do git com vscode online no chrome os flex.
 
 # Páginas de Exercícios
-> [Exercício 22 - ex022: fundo004.html] (https://juliompcnascimento.github.io/html-css/exercicios/ex022/fundo004.html)
+> <a href="https://juliompcnascimento.github.io/html-css/exercicios/ex022/fundo004.html">Exercício 22 - ex022: fundo004.html</a>
