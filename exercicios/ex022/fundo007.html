@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical de Boxes</title>
+
+    <style>
+        #conteiner {
+            background-image: url(./imagens/target001.png);
+            background-size: 100% 100%;
+
+            background-color: purple;
+            height: 93vh;
+            padding: 10px;
+
+            position: relative;
+        }
+
+        #conteudo {
+            background-image: url(./imagens/target001.png);
+            background-size: 100% 100%;
+
+            background-color: yellow;
+            width: 300px;
+            height: 150px;
+
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Alinhamento vertical de caixas com position relative e absolute -->
+    <main id="conteiner">
+        <section id="conteudo">
+
+        </section>
+    </main>
+
+</body>
+</html>
